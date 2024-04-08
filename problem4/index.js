@@ -1,4 +1,5 @@
 // Using Arithmetic Series Formula
+// The complexity of the algorithm: O(1) 
 const sum_to_a = (n) => {
   if (!Number.isSafeInteger(n) || n < 1) {
     return -1;
@@ -8,6 +9,7 @@ const sum_to_a = (n) => {
 };
 
 // Using Recursion
+// The complexity of the algorithm: O(n) 
 const sum_to_b = (n) => {
   if (!Number.isSafeInteger(n) || n < 1) {
     return -1;
@@ -17,6 +19,7 @@ const sum_to_b = (n) => {
 };
 
 // Using While Loop
+// The complexity of the algorithm: O(n) 
 const sum_to_c = (n) => {
   if (!Number.isSafeInteger(n) || n < 1) {
     return -1;
